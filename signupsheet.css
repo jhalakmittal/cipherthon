@@ -1,0 +1,234 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+margin:0;
+padding:0;
+
+}
+body{
+font-family: "Lucida Console";
+background-image: linear-gradient(#87D5D0,#1DEAEC,#E5E8E0);
+    background-repeat: no-repeat;
+color:#fff;
+height:100vh;
+font-size:40px;
+width: 100%;
+text-shadow: 6px 6px 8px #063730;
+}
+.logo
+{
+	text-shadow:none;
+}
+.logo a{
+	color:red;
+}
+.logo a:hover{
+	color:#fff;
+	font-size:42px;
+}
+.signup1{width: 280px;
+	position: absolute;
+	top:50%;
+	left:700;
+	transform: translate(100%,-35%);
+	color: #fff;
+}
+.signup1 h3{
+	font-size:10px;
+	font-family: "arial";
+	float:right;
+	padding-top: 27px;
+}
+.signup1 h3 a:hover{
+	font-size:17px;
+}
+.signup1 h3 a{
+	color:#FF0000;
+	font-size:15px;
+}
+.signup1 h1{
+font-size:60px;
+color:#fff;
+}
+.textbox{
+	width: 100%;
+	max-width:250px;
+	overflow: hidden;
+	font-size: 40px;
+	padding: 8px 0;
+	margin:8px 0;
+	border-color:#000000;
+
+}
+.textbox i{
+	width: 15px;
+	float: left;
+	text-align: center;
+	text-shadow: 6px 6px 8px #063730;
+}
+.textbox input{
+	width:100%;
+	max-width:250px;
+	border:none; 
+	background: #fff;
+	height:38px;
+	max-height:50px;
+	padding-left:3px;
+	border-color:#000000;
+}
+.textbox input:hover{
+	box-shadow: 1px 1px 2px 5px #A9A9A9;
+	max-height:45px;
+	max-width: 260px;
+}
+.signup2{
+	width: 280px;
+	position: absolute;
+	top:50%;
+	left:2210;
+	transform: translate(300%,-35%);
+	color: #fff;
+}
+.textbox2{
+	width: 100%;
+	max-width:250px;
+	overflow: hidden;
+	font-size: 40px;
+	padding: 8px 0;
+	margin:8px 0;
+	border-color:#000000;
+
+}
+.textbox2 input{
+	width:100%;
+	border:none; 
+	background: #fff;
+	height:38px;
+	max-height:50px;
+	padding-left:3px;
+	border-color:#000000;
+}
+.textbox2 i{
+	width: 15px;
+	float: left;
+	text-align: center;
+	text-shadow: 6px 6px 8px #063730;
+}
+.textbox2 input:hover{
+	box-shadow: 1px 1px 2px 5px #A9A9A9;
+	max-height:45px;
+}
+.signup2 h3{
+	font-size:10px;
+	font-family: "arial";
+	float:right;
+	padding-top: 30px;
+	color:red;
+}
+.signup2 h3 a:hover{
+	font-size:17px;
+}
+.signup2 h1{
+font-size:60px;
+color:#fff;
+}
+.signup2 h3 a{
+	color:#FF0000;
+	font-size:15px;
+}
+.btn
+{
+border:1.3px solid #fff;
+background:none;
+padding:10px 20px;
+font-size:20px;
+cursor:pointer;
+font-family:"arial";
+margin:10px;
+transition:0.8s;
+position:relative;
+overflow:hidden;
+}
+.btn a{
+	color:#fff;
+	font-size:13px;
+	text-decoration-line: none;
+	font-family: arial;
+	display:inline;
+}
+.btn a:hover{
+	color: #fff;
+	font-size: 15px;
+	display:inline;
+}
+.btn a:active{
+	color: #fff;
+	display:inline;
+}
+.btn1,.btn2{
+color:#fff;
+}
+.btn1:hover,.btn2:hover{
+font-size:18px;
+color:#fff;
+}
+.btn::before{
+content:"";
+position:absolute;
+left:0;
+width:100%;
+height:0%;
+background:#063730;
+z-index:-1;
+transition:0.8s;
+}
+.btn1::before,.btn2::before{
+bottom=0;
+border-radius:50% 50% 0 0;
+}
+.btn1::before,.btn2::before{
+height:0%;
+}
+.btn1:hover::before,.btn2:hover::before{
+height:180%;
+}
+.header{
+	background:#063730;
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 60px;
+	color: #fff;
+	border:2px solid #063730;
+	border-radius: 10px;
+	text-shadow: 2px 2px 2px #063730;
+}
+.topnav{
+	float:right;
+	font-size: 18px;
+	height: 60px;
+	padding-top: 10px;
+	font-family: arial;
+	text-shadow: 6px 6px 8px #063730;
+
+}
+.topnav a:hover{
+	background-color: #fff;
+	color: #000000;
+	height:100%;
+	max-height: 60px;
+	display:inline;
+}
+.topnav a:active{
+	color: #000000;
+	background-color: #fff;
+	border: 2px solid #063730;
+	height:100%;
+	display:inline;
+}
+.topnav a{
+	color: #fff;
+	text-decoration-line: none;
+   padding: 9.5px 8px 8px 16px;
+}

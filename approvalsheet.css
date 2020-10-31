@@ -1,0 +1,168 @@
+*{
+margin:0;
+padding:0;
+
+}
+body{
+	background-image:radial-gradient(#87d5d0,#1DEAEC,#E5E8E0);
+	font-family: "Lucida Console";
+	height: 100vh;
+
+}
+.detail-header{
+	padding-top: 7px;
+	margin-bottom: 10px;
+	text-align: left;
+	padding-left: 0px;
+	align-self: center;
+	padding-bottom: 20px;
+}
+.heading{
+	background:#063730;
+	font-size: 30px;
+	color:#fff;
+}
+.header{
+	background:#063730;
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 80px;
+	align-self: center;
+	color: #fff;
+	border:2px solid #063730;
+	border-radius: 10px;
+	text-shadow: 2px 2px 2px #063730;
+}
+.header-text{
+	align-self: center;
+	font-size: 35px;
+	text-shadow: 6px 6px 8px #063730;
+}
+
+
+.textbox{
+	width: 100%;
+	max-width:250px;
+	overflow: hidden;
+	font-size: 40px;
+	padding: 8px 0;
+	margin:8px 0;
+	border-color:#000000;
+
+}
+.box1{
+	width: 280px;
+	position: absolute;
+	top:50%;
+	left:700;
+	padding-top:10px;
+	transform: translate(5%,-60%);
+	color: #000000;
+}
+.textbox1{
+	width:100%;
+}
+.textbox1 input{
+	width:220%;
+	border:none;
+	max-width: 400px 
+	background: #fff;
+	height:30px;
+	max-height:50px;
+	padding-left:3px;
+	border-color:#000000;
+}
+.textbox1 input:hover{
+	box-shadow: 1px 1px 2px 5px #A9A9A9;
+	max-height:45px;
+	
+}
+.box2{
+	width: 280px;
+	position: absolute;
+	top:50%;
+	padding-top: 10px;
+	left:2210;
+	transform: translate(250%,-60%);
+	color: #000000;
+}
+.textbox2{
+	width:100%;
+}
+.textbox2 input{
+	width:220%;
+	border:none;
+	max-width: 400px 
+	background: #fff;
+	height:30px;
+	max-height:50px;
+	padding-left:3px;
+	border-color:#000000;
+}
+.textbox2 input:hover{
+	box-shadow: 1px 1px 2px 5px #A9A9A9;
+	max-height:45px;
+	
+}
+.address-header{
+background:#063730;
+width:100%;
+font-size:30px;
+color:#fff;
+transform: translate(0,0%);
+}
+.box3{
+	width: 280px;
+	position: absolute;
+	top:50%;
+	padding-top:520px;
+	padding-left: 12px;
+	transform: translate(0,-38.15%);
+}
+.textbox3{
+	width:100%;
+}
+.textbox3 input{
+	width:220%;
+	border:none;
+	max-width: 400px 
+	background: #fff;
+	height:30px;
+	max-height:50px;
+	padding-left:3px;
+	border-color:#000000;
+}
+.textbox3 input:hover{
+	box-shadow: 1px 1px 2px 5px #A9A9A9;
+	max-height:45px;
+	
+}
+.box4{
+	width: 280px;
+	position: absolute;
+	top:50%;
+	padding-top: 520px;
+	left:2210;
+	transform: translate(250%,-42.40%);
+}
+.textbox4{
+	width:100%;
+}
+.textbox4 input{
+	width:220%;
+	border:none;
+	max-width: 400px 
+	background: #fff;
+	height:30px;
+	max-height:50px;
+	padding-left:3px;
+	border-color:#000000;
+}
+.textbox4 input:hover{
+	box-shadow: 1px 1px 2px 5px #A9A9A9;
+	max-height:45px;
+	
+}

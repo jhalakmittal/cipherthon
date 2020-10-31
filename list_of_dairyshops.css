@@ -1,0 +1,102 @@
+body{
+	background-image: url("dairys.jpg");
+	z-index: 2;
+    margin: 0;
+	padding: 0;
+	
+}
+header{
+	background:#063730;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 0px;
+	padding-left: 10px;
+	height: 40px;
+	color: white;
+	border:2px solid #E5E8E0;
+	border-radius: 10px;
+	
+}
+.topnav{
+	float:right;
+	font-size: 18px;
+	height: 40px;
+	padding-top: 10px;
+	font-family: arial;
+
+}
+.topnav a:hover{
+	background-color: #E5E8E0;
+	color: #063730;
+}
+.topnav a:active{
+	color: black;
+	background-color: #E5E8E0;
+	border: 2px solid #063730;
+}
+
+.topnav a{
+	color: white;
+	text-decoration-line: none;
+   padding: 9.5px 8px 8px 16px;
+}
+table, th, td {
+    border: 1px solid black;
+	border-collapse: collapse;
+	font-family: arial;
+	color:#063730;
+	font-style: italic;
+  }
+  th,td{
+	padding: 20px;
+	font-family: arial;
+	color:#063730;
+	text-decoration-line: none;
+	text-align: center;
+	font-size: 30px;
+  }
+ 
+  table#t01 th {
+	color:white;
+	text-shadow: 1px 1px #E5E8E0;
+	background-color: #009879;
+	font-family: sans-serif;
+	font-size: 40px;
+	}
+table#t01 {
+	width: 50%;
+	background-color:#C8F4F9;
+	margin-left:25%; 
+	margin-right:25%;
+	margin-top: 10%;
+	/* margin-left: 70px; */
+	/* margin-right: 40px; */
+	
+	/* align-items: center; */
+	/* * background-color: #74B7AC; */
+  }
+  td a{
+  	text-decoration-line: none;
+  	color: #063730;
+  }
+  td a:hover{
+  	background: #E5E8E0;
+  	color: #063730;
+  	text-decoration-line: none;
+  	border: 2px solid #063730;
+  }
+  footer{
+  	margin-top: 10%;
+	padding: 10px ;
+	background-color:#13574D;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+}
+@media screen and (max-width:600px ){
+	.footer-items{
+		width: 100%;
+	}
+
+}
